@@ -10,7 +10,7 @@ stocks = ('AAPL','ADBE','AMZN','ASML','AVGO',
 st.title('Stock dashboard for the companies with Mega market cap')
 
 stock_choice = st.multiselect('Choose the stock',stocks)
-startdate = st.date_input('Start date',value = pd.to_datetime('2001-01-01'))
+startdate = st.date_input('Start date',value = pd.to_datetime('2011-01-01'))
 enddate = st.date_input('End date',value = pd.to_datetime('today'))
 
 
